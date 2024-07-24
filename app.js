@@ -59,6 +59,7 @@ btn.addEventListener("click", () => {
     });
 });
 
+
 function displayLoading(show) {
   if (show) {
     loader.classList.add("display");
