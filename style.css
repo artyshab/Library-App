@@ -111,6 +111,40 @@ h1 {
     animation: l1 1s infinite;
     visibility: hidden;
   }
+ 
+  a{
+    text-decoration: none;
+    color: black;
+  }
+
+
+  #container-info {
+    width: 400px;
+    margin: 30px auto;
+    border: 5px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    display: none;
+  }
+
+  #book-display{
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  #published-paragraph {
+    font-size: 1.23rem;
+    margin: 10px auto;
+    font-weight: 900;
+    text-decoration: underline;
+  }
+
+  #bookDisplay-img {
+    width: 200px;
+    margin: 10px auto;
+}
+
   @keyframes l1 {to{transform: rotate(.5turn)}}
 
 
@@ -119,6 +153,7 @@ h1 {
         grid-template-columns: auto;
        }
        .book {
-            margin: 10px auto;
+            margin: 10px  auto;
        }
   }
+
